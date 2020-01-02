@@ -32,8 +32,8 @@ plant were to land on a Saturday, and add a day if it were to land
 on a Sunday.
 
 ### Part E
-Write a function that outputs the schedule into a table format
-using any Python table library.
+Write a function `create_table` that outputs the schedule into a
+table format using any Python table library.
 
 ### Part F
 In the main function, write your now beautified schedule to a .txt
