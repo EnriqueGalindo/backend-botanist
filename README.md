@@ -1,5 +1,5 @@
 # The infamous EE challenge! xD
-![LOGO](eg_headshot.jpg)
+![LOGO](eg_headshot.jpeg)
 
 ## Background
 This is a real world entry level application. This is based off a
