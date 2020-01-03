@@ -36,8 +36,7 @@ Write a function `create_table` that outputs the schedule into a
 table format using any Python table library.
 
 ### Part F
-In the main function, write your now beautified schedule to a .txt
-file. Make sure the .txt file gets pushed to the repo as well.
+In the main function, write your now beautified schedule to plant_schedule.txt. Make sure that the file gets pushed to the repo as well.
 
 ### PR (Pull Request) Workflow for this Assignment
 1. *Fork* this repository into your own personal github account

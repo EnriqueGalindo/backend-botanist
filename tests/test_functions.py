@@ -2,8 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import unittest
-import watering_schedule
+import main
 import datetime
+import os
 
 
 class TestFunctions(unittest.TestCase):
@@ -50,3 +51,8 @@ class TestFunctions(unittest.TestCase):
             total_days = date_list[-1] - date_list[0]
             weeks = total_days.days / 7.0
             self.assertGreaterEqual(weeks, self.weeks - 1)
+
+    def test_file_exists(self):
+        self.assertTrue(os.path.exists('plant_schedule.txt'))
+
+    
