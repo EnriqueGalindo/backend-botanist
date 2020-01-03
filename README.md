@@ -1,5 +1,5 @@
 # The infamous EE challenge! xD
-![LOGO](happy_flower.jpeg)
+![LOGO](eg_headshot.jpg)
 
 ## Background
 This is a real world entry level application. This is based off a
@@ -15,6 +15,8 @@ schedule
 - The schedule covers the next 12 weeks starting on the next Monday.
 - No plants are watered on Saturdays or Sundays.
 - Each plant is watered on its desired schedule or as close as possible, taking into account weekends.
+
+![LOGO](happy_flower.jpeg)
 
 ### Part A
 Write a function, `parse_json` to obtain a list of dictionaries of plants and 
