@@ -2,19 +2,19 @@
 # -*- coding: utf-8 -*-
 
 import unittest
-import watering_schedule
+import main
 import datetime
 
 
 class TestFunctions(unittest.TestCase):
 
     def setUp(self):
-        self.start_date = datetime.datetime.strptime("12-16-2019", '%m-%d-%Y')
+        self.start_date = (6 - datetime.datetime.day(datetime.datetime.now())) + datetime.datetime.now()
         self.weeks = 12
-
+        
     def test_no_weekends(self):
         '''checks to make sure that no plants are being watered on a weekend'''
-        schedule = watering_schedule.create_plant_array(
+        schedule = main.create_plant_array(
             self.weeks, self.start_date
             )
         for plant in schedule:
@@ -40,13 +40,3 @@ class TestFunctions(unittest.TestCase):
                     date - prev_day <= delta + watering_schedule.one_day
                     )
                 prev_day = date
-
-    def test_twelve_weeks(self):
-        schedule = watering_schedule.create_plant_array(
-            self.weeks, self.start_date
-            )
-        for plant in schedule:
-            date_list = plant['schedule']
-            total_days = date_list[-1] - date_list[0]
-            weeks = total_days.days / 7.0
-            self.assertGreaterEqual(weeks, self.weeks - 1)

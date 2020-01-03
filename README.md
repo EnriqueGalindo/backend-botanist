@@ -1,5 +1,13 @@
-# Don't Let My Plants Die! :o
+# The infamous EE challenge! xD
 ![LOGO](happy_flower.jpeg)
+
+## Background
+This is a real world entry level application. This is based off a
+real take home programming challenge given by a company in
+Chicago in Dec 2019. The original challenge did not outline the
+steps that needed to be taken to accomplish the challenge. The
+steps are based off of the solution Enrique Galindo wrote and Eric
+Hanson contributed to. 
 
 ### Objectives
 - The user receives a .txt file with a calendar of the watering
