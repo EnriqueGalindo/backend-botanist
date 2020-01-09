@@ -1,15 +1,11 @@
 # The infamous EE challenge! xD
-![LOGO](eg_headshot.jpeg)
 
-## Background
-This is a real world entry level application. This is based off a
-real take home programming challenge given by a company in
-Chicago in Dec 2019. The original challenge did not outline the
-steps that needed to be taken to accomplish the challenge. The
-steps are based off of the solution Enrique Galindo wrote and Eric
-Hanson contributed to. 
+### Learning Objectives
+- Familiarize using datetime library.
+- Learn how to use table modules to beautify outputs.
+- Get more practice reading information from JSON files.
 
-### Objectives
+### Assignment Goals
 - The user receives a .txt file with a calendar of the watering
 schedule
 - The schedule covers the next 12 weeks starting on the next Monday.
@@ -23,12 +19,7 @@ Write a function, `parse_json` to obtain a list of dictionaries of plants and
 how often they need to be watered (Hint:You may want to reformat the `water_after` values in the dictionary for easier use later)
 
 ### Part B
-Write a function `schedule_per_plant` using the [datetime](https://
-docs.python.org/3/library/datetime.html)library that adds a key
-value pair, with the key being `schedule`, to each plant's
-dictionary of the days that plant has to be watered, without being
-concerned with weekends quite yet. (Hint:using pprint might make
-the schedule easier to read)
+Write a function `schedule_per_plant` using the [datetime](https://docs.python.org/3/library/datetime.html)library that adds a key value pair, with the key being `schedule`, to each plant's dictionary of the days that plant has to be watered, without being concerned with weekends quite yet. (Hint:using pprint might make the schedule easier to read)
 
 ### Part C
 Write a function `final_schedule` to create a dictionary of all
@@ -47,6 +38,27 @@ table format using any Python table library.
 
 ### Part F
 In the main function, write your now beautified schedule to plant_schedule.txt. Make sure that the file gets pushed to the repo as well.
+
+### Example Output
++-------------------+------------+------------+-------------------+------------+------------+------------+
+|     12-16-2019    | 12-17-2019 | 12-18-2019 |     12-19-2019    | 12-20-2019 | 12-21-2019 | 12-22-2019 |
++-------------------+------------+------------+-------------------+------------+------------+------------+
+|  Fiddle Leaf Fig  |            | Wavy Fern  |  Bird's Nest Fern | Wavy Fern  |            |            |
+|    Snake Plant    |            |            | Bell Pepper Plant |            |            |            |
+|     Money Tree    |            |            |  Strawberry Plant |            |            |            |
+|  Bird's Nest Fern |            |            |                   |            |            |            |
+|       Croton      |            |            |                   |            |            |            |
+| Bell Pepper Plant |            |            |                   |            |            |            |
+
+![LOGO](eg_headshot.jpeg)
+
+## Background
+This is a real world entry level application. This is based off a
+real take home programming challenge given by a company in
+Chicago in Dec 2019. The original challenge did not outline the
+steps that needed to be taken to accomplish the challenge. The
+steps are based off of the solution Enrique Galindo wrote and Eric
+Hanson contributed to. 
 
 ### PR (Pull Request) Workflow for this Assignment
 1. *Fork* this repository into your own personal github account
