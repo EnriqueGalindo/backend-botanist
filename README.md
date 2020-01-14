@@ -12,7 +12,7 @@ schedule
 - No plants are watered on Saturdays or Sundays.
 - Each plant is watered on its desired schedule or as close as possible, taking into account weekends.
 
-![LOGO](happy_flower.jpeg)
+![LOGO](images/happy_flower.jpeg)
 
 ### Part A
 Write a function, `parse_json` to obtain a list of dictionaries of plants and 
@@ -40,6 +40,7 @@ table format using any Python table library.
 In the main function, write your now beautified schedule to plant_schedule.txt. Make sure that the file gets pushed to the repo as well.
 
 ### Example Output
+```
 +-------------------+------------+------------+-------------------+------------+------------+------------+
 |     12-16-2019    | 12-17-2019 | 12-18-2019 |     12-19-2019    | 12-20-2019 | 12-21-2019 | 12-22-2019 |
 +-------------------+------------+------------+-------------------+------------+------------+------------+
@@ -49,8 +50,9 @@ In the main function, write your now beautified schedule to plant_schedule.txt. 
 |  Bird's Nest Fern |            |            |                   |            |            |            |
 |       Croton      |            |            |                   |            |            |            |
 | Bell Pepper Plant |            |            |                   |            |            |            |
+```
 
-![LOGO](eg_headshot.jpeg)
+![LOGO](images/eg_headshot.jpeg) ![LOGO](images/eh_headshot.jpeg)
 
 ## Background
 This is a real world entry level application. This is based off a
